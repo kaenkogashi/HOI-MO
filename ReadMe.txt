@@ -1,5 +1,8 @@
 Explanation of HOI-MO (Human-Object Interaction with Missing Objects) test sets' CSV headers
 
+The total samples of V-COCO-MO are 2376. V-COCO-MO is write in the HOI_MO_COCO2376.csv file.
+The total samples of HICO-DET-MO are 3572. HICO-DET-MO is write in the HOI_MO_HICO3572.csv file.
+
 Image_ID: image id of V-COCO or HICO-DET
 x1,	y1,	x2	,y2: HOI_MO's human bounding box upper left and lower right's x,y coordinate. We don't have object bounding box coordinate because all of them are zeros.
 COCO_Verb_Id_1,	COCO_Verb_Id_2,	COCO_Verb_Id_3: V-COCO's verb ID.
@@ -15,5 +18,5 @@ https://github.com/s-gupta/v-coco
 The link for the original HICO-DET is posted below.
 http://www-personal.umich.edu/~ywchao/hico/
 
-We don't have object bounding box coordinate for V-COCO-MO and HICO-DET-MO. 
-Please fill all of object bounding box as zeros while you merge V-COCO-MO and HICO-DET-MO with original V-COCO and HICO-DET.
+V-COCO-MO and HICO-DET-MO don't have the object bounding boxes coordinate.
+Please fill all of the object bounding boxes as zeros while you merge V-COCO-MO and HICO-DET-MO with original V-COCO and HICO-DET.
