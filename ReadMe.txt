@@ -6,3 +6,8 @@ COCO_Verb_Id_1,	COCO_Verb_Id_2,	COCO_Verb_Id_3: COCO's verb ID.
 HICO_Verb_Id_1,	HICO_Verb_Id_2,	HICO_Verb_Id_3: HICO-DET's verb ID.
 HOI_MO_Id: number 1 to number 6.
 HOI_MO_Name: occlusion, truncation, transparency, gray image, rare type, small scale.
+
+We have XXX.
+To make a mix, merge the original COCO and wilder. 
+The link for the original COCO is posted below.
+We don't have object bounding box coordinate for HOI-MO. Please fill all of object bounding box as zeros while you merge HOI-MO with original COCO.
